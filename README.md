@@ -3,7 +3,9 @@
 **Slambda** is a TypeScript library for authoring event handlers for AWS Lambda proxy events and Netlify Functions.
 
 ## Install
-`yarn add https://github.com/jaredkrinke/modules.git#slambda-0.1.0`
+```
+yarn add https://github.com/jaredkrinke/modules.git#slambda-0.1.0
+```
 
 ## Example
 
