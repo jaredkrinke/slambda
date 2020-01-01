@@ -1,8 +1,8 @@
 {
   "name": "slambda",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "TypeScript helpers for implementing AWS Lambda handlers",
-  "main": "slambda",
+  "main": "slambda.js",
   "typings": "slambda",
   "scripts": {
     "clean": "npx shx rm -rf dist",
@@ -19,7 +19,7 @@
     "shx": "^0.3.2"
   },
   "files": [
-    "slambda.ts",
+    "slambda.js",
     "slambda.d.ts"
   ]
 }
