@@ -1,6 +1,6 @@
 {
   "name": "slambda",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TypeScript helpers for implementing AWS Lambda handlers",
   "main": "slambda",
   "typings": "slambda",
@@ -11,9 +11,10 @@
   },
   "author": "Jared Krinke",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.39"
+  },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.39",
     "@types/node": "^13.1.2",
     "shx": "^0.3.2"
   },
